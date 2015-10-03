@@ -50,16 +50,3 @@ header{
   display: inline-block;
   font-size: 18px;
 }
-
-.header-content{
-  float:left;
-}
-
-.header-image{
-  float: right;
-  background-image: url(../img/item-header.png);
-  background-repeat: no-repeat;
-  width: 332px;
-  height: 130px;
-  background-size: 40%;
-}
