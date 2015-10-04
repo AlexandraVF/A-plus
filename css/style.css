@@ -20,21 +20,27 @@ h3{
   color:#000;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 18px;
+  margin: 0;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 700px;
+  font-weight: 700;  
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
 .wrapper{
   width: 980px;
   margin: 0 auto;
 }
 .clearfix:after{
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 header{
@@ -48,43 +54,67 @@ header{
   background-image: url(../img/logotype-header.png);
   background-repeat: no-repeat;
   float: left;
+  margin-top: 67px;
+  margin-bottom: 121px;
 }
 
 .header-menu{
   float: right;
   font-size: 0;
+  margin-top: 95px;
+  margin-right: 46px;
 }
 .header-menu li{
   display: inline-block;
   font-size: 18px;
+  margin-right: 42px;
 }
 
 .header-image {
   background-image: url(../img/item-header.png);
-  background-position: 100% 0;
+  background-position: 145% 0;
   background-repeat: no-repeat;
-  height: 440px;
+  height: 500px;
 }
 
 .header-content {
   width: 446px;
 }
 
+.header-content h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.header-content p {
+  padding-bottom: 25px;
+}
+
 .btn {
+  display: block;
   color: #fff;
-  text-decoration: none;
+  text-transform: uppercase;
   background-color: #00b770;
-  padding: 22px 72px;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 22px;
+  padding-top: 22px;
 }
 
 .under-header-column {
   width: 300px;
   float: left;
   margin-right: 40px;
+  margin-bottom: 60px;
 }
 
 .under-header-column:last-child {
   margin-right: 0;
+}
+
+.under-header h3 {
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 .icon-adv {
@@ -123,6 +153,12 @@ header{
 .review {
   background-color: #fff;
 }
+
+.review-header{
+  padding-top: 90px;  
+  padding-bottom: 60px;
+}
+
 .review-header h2 {
   width: 520px;
   float: left;
@@ -130,8 +166,25 @@ header{
 
 .review-header .show-all {
   float: right;
+  text-transform: uppercase;
 }
 
+.show-all span {
+  margin-right: 30px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.dots {
+  display: inline-block;
+  border-radius: 50%;
+  border: 3px #00b770 solid;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.dots:last-child{
+  margin-right: 0px;
+}
 .review-box div {
   display: inline-block;
 }
@@ -141,6 +194,7 @@ header{
   height: 135px;
   background-image: url(../img/portrait.png);
   background-repeat: no-repeat;
+  margin-right: 35px;
 }
 
 .name-review {
@@ -168,6 +222,22 @@ header{
 .contact-form {
   width: 640px;
   float: left;
+  box-sizing: border-box;
+}
+
+.form-label {
+  float: left;
+  margin-right: 28px;
+}
+
+.form-label label {
+  display: block;
+  width: 90px;
+  text-align: right;  
+}
+
+.form-input {
+  float: left;
 }
 
 .contact-information {
@@ -193,6 +263,7 @@ footer {
 
 .footer-right {
   float: right;
+  width: 640px;
 }
 
 .footer-menu nav{
