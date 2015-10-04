@@ -9,7 +9,7 @@
   <body>   
     <!--header-->    
     <header>
-      <div class="wrapper clearfix">
+      <div class=" wrapper clearfix">
         <div class="header-logo"><a href="index.html"></a></div>    
           <nav class="header-menu">
             <ul>
@@ -20,32 +20,36 @@
             </ul>
           </nav>
       </div>
-      <div class="wrapper">
-        <div class="header-image">
+      <div class="header-image">
+        <div class="wrapper">
           <div class="header-content">
-            <h2>Учеба еще никогда не была такой интересной!</h2>
-            <p>Обучаем готовых к трудоустройству специалистов на теоретических 
-              и практических курсах.</p>
-            <a href="#" class="btn btn-header-content">Подать заявку</a>     
+              <h2>Учеба еще никогда не была такой интересной!</h2>
+              <p>Обучаем готовых к трудоустройству специалистов на теоретических 
+                и практических курсах.</p>
+              <a href="#" class="btn btn-header-content">Подать заявку</a>     
           </div>
-        </div>  
-      </div>
+        </div>
+      </div>  
+  
     </header>
     <!--under-header-->  
     <div class="under-header">
       <div class="wrapper clearfix">
         <div class="under-header-column">  
           <div class="icon-adv icon-adv-1"></div>
+          <div class="icon-adv-triangle"></div>
           <h3>Гибкий график обучения</h3>
           <p>Современный темп жизни требует гибкого подхода к расписанию.</p>
         </div>  
         <div class="under-header-column">
           <div class="icon-adv icon-adv-2"></div>
+          <div class="icon-adv-triangle"></div>
           <h3>Практические занятия</h3>
           <p>На одной теории далеко не уедешь поэтому мы обучаем на практике.</p>
         </div>
         <div class="under-header-column">    
           <div class="icon-adv icon-adv-3"></div>
+          <div class="icon-adv-triangle"></div>
           <h3>Не оставим без работы</h3>
           <p>Хорошие специалисты всегда в цене и Вы станете именно таким.</p>
         </div>
@@ -54,19 +58,22 @@
     <!--review-->  
     <div class="review">
       <div class="wrapper">
-        <div class="clearfix">
+        <div class="review-header clearfix">
           <h2>Отзывы выпускников</h2>
-          <a href="#" class="show-all">Показать все</a>
+          <div class="show-all"><a href="#" class="show-all">Показать все</a></div>
         </div>
-        <div class="review-box">       
+        <div class="review-box">
+          <div class="portrait"></div>       
           <div class="name-review">
             <h3>Иванов Петр Сергеевич</h3>
             <p>Группа: 04-И-15 Выпуск: 2009 г.</p>
           </div>
+          <div class="qoutes-open"></div>
           <div class="content-review">
             <h3>Тяжело в учении, легко в бою!</h3>
             <p>Во время обучения было очень тяжело, практические занятия требовали усидчивости и гибкости ума. Однако, по прошествии времени, понял, что все это было не зря! Устроился в ведущую студию своего города сразу после выпуска, а проработав там три года основал свою собственную!</p>
           </div>
+          <div class="qoutes-close"></div>
         </div>
       </div>
     </div>
@@ -76,22 +83,23 @@
         <div class="contact-form">
           <h2>Обратная связь</h2>
           <form class="clearfix" action="">
-            <div class="contact-form-label clearfix">
-              <label for="surname">ФИО</label>
-              <label for="age">Возраст</label>
-              <label>Пол</label>
-              <label for="question">Вопрос</label>
+            <div class="form-string">        
+              <label for="surname">ФИО</label><input id="surname" type="text" placeholder="Представьтесь, пожалуйста">
             </div>
-            <div class="contact-form-input clearfix">
-              <input id="surname" type="text" placeholder="Представьтесь, пожалуйста">
-              <input id="age" type="text" placeholder="Укажите возраст, хотя бы приблизительно">        
-              <input id="sex" type="radio" name="choice-sex"><label for="sex">Женский</label>
-              <input id="sex" type="radio" name="choice-sex"><label for="sex">Мужской</label> 
-              <textarea id="question" placeholder="Сообщите все, что считаете нужным"></textarea>
+            <div class="form-string">    
+              <label for="age">Возраст</label><input id="age" type="text" placeholder="Укажите возраст, хотя бы приблизительно">    
+            </div>
+            <div class="form-string"> 
+              <label>Пол</label> <input id="sex" type="radio" name="choice-sex"><label for="sex">Женский</label><input id="sex" type="radio" name="choice-sex"><label for="sex">Мужской</label>
+            </div>
+            <div class="form-string"> 
+              <label for="question">Вопрос</label><textarea id="question" placeholder="Сообщите все, что считаете нужным"></textarea>
+            </div>
+            <div class="form-string"> 
               <input class="btn btn-contact-form" type="submit" value="Отправить">
-            </div>  
+            </div>            
           </form>
-        </div>
+        </div>      
         <div class="contact-information">
           <h3>Заинтересовались обучением на нашей кафедре?</h3>
           <p>Заполните короткую форму обратной связи и отправьте нам</p>
@@ -104,7 +112,7 @@
     <footer>
       <div class="wrapper clearfix">    
         <div class="footer-left">
-          <div class="logo"></div>
+          <div class="footer-logo"></div>
           <p>197101, г. Санкт-Петербург, пр. Кронверкский, д. 49</p>
           <p>Все права защищены © 2015</p>
         </div>

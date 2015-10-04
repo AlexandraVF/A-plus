@@ -4,6 +4,7 @@ body{
   font-size: 18px;
   line-height: 1.33;
   font-weight: 500;
+  background-color: #efefef;
 }
 
 h2{
@@ -12,6 +13,7 @@ h2{
   line-height: 1.2;
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0;
 }
 
 h3{
@@ -20,11 +22,17 @@ h3{
   text-transform: uppercase;
 }
 
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700px;
+}
+
 .wrapper{
   width: 980px;
   margin: 0 auto;
 }
-.clearfix{
+.clearfix:after{
   content: "";
   display: table;
   clear: both;
@@ -49,4 +57,175 @@ header{
 .header-menu li{
   display: inline-block;
   font-size: 18px;
+}
+
+.header-image {
+  background-image: url(../img/item-header.png);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  height: 440px;
+}
+
+.header-content {
+  width: 446px;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  background-color: #00b770;
+  padding: 22px 72px;
+}
+
+.under-header-column {
+  width: 300px;
+  float: left;
+  margin-right: 40px;
+}
+
+.under-header-column:last-child {
+  margin-right: 0;
+}
+
+.icon-adv {
+  width: 100px;
+  height: 100px;
+  background-color: #3366cc;
+  z-index: 100;
+  margin-top: -40px;
+}
+
+.icon-adv-triangle {
+  background-color: transparent;
+  width: 0px;
+  height: 0px;
+  border-right: 10px transparent solid;
+  border-top: 10px #3366cc solid;
+}
+.icon-adv-1 {
+  background-image: url(../img/icon-adv-1.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.icon-adv-2 {
+  background-image: url(../img/icon-adv-2.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.icon-adv-3 {
+  background-image: url(../img/icon-adv-3.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.review {
+  background-color: #fff;
+}
+.review-header h2 {
+  width: 520px;
+  float: left;
+}
+
+.review-header .show-all {
+  float: right;
+}
+
+.review-box div {
+  display: inline-block;
+}
+
+.portrait {
+  width: 135px; 
+  height: 135px;
+  background-image: url(../img/portrait.png);
+  background-repeat: no-repeat;
+}
+
+.name-review {
+  width: 130px;  
+}
+
+.content-review {
+  width: 630px;  
+}
+
+.qoutes-open {
+  width: 30px; 
+  height: 30px;
+  background-image: url(../img/quotes-open.png);
+  background-repeat: no-repeat;
+}
+
+.qoutes-close {
+  width: 30px; 
+  height: 30px;
+  background-image: url(../img/qoutes-close.png);
+  background-repeat: no-repeat;
+}
+
+.contact-form {
+  width: 640px;
+  float: left;
+}
+
+.contact-information {
+  width: 300px;
+  float: left;
+}
+
+footer {
+  background-color: #1f2022;
+}
+
+.footer-left {
+  width: 300px;
+  float: left;
+}
+
+.footer-logo {
+  width: 182px;
+  height: 82px;
+  background-image: url(../img/logotype-footer.png);
+  background-repeat: no-repeat;  
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-menu nav{
+  float: left;
+}
+
+
+.social-btn a{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+.footer-right-bottom p{
+  float: left;
+}
+.social-btn {
+  float: right;
+}
+.social-btn-vk {
+  background-image: url(../img/vk-logo.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.social-btn-fb {
+  background-image: url(../img/fb-logo.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.social-btn-tw {
+  background-image: url(../img/twitter-logo-.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
