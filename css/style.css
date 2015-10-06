@@ -320,6 +320,7 @@ footer p{
 .footer-left {
   width: 300px;
   float: left;
+  margin-top: 94px;
 }
 
 .footer-logo {
@@ -331,15 +332,19 @@ footer p{
 
 .footer-right {
   float: right;
-  width: 640px;
+  width: 680px;
+  margin-top: 94px;
 }
 
 .footer-menu nav{
   float: left;
+  margin-right: 10px;
+  margin-bottom: 30px;
 }
 
 .footer-menu li{
   list-style: none;
+  margin-bottom: 24px;
  }
 
 .footer-menu a{
@@ -348,6 +353,7 @@ footer p{
 
 .footer-menu li:first-child{
   color: #fff;
+  margin-bottom: 38px;
 }
 
 .social-btn a{
